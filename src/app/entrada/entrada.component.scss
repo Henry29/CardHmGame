@@ -1,0 +1,15 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente los elementos */
+  }
+  
+  .elemento {
+    margin: 10px 5px; /* Añade un espacio alrededor de los elementos */
+    max-width: 250px;
+    text-align: center; /* Centra el texto dentro de los elementos */
+  }
+  
+  .elemento input {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+  }
